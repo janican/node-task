@@ -1,0 +1,13 @@
+<h1>{{pagetitle}}</h1>
+<div class="cards">
+    {{#each products}}
+        <div class="card">
+            <h3>{{this.nimi}}</h3>
+            <p>Vuosimalli {{this.vuosimalli}} </p>
+            <p>Kuutio {{this.kuutio}} </p>
+            <p>Kilometrit {{this.kilometrit}} </p>
+            <p>Ajetuttunnit {{this.ajetuttunnit}} </p>
+            <p>Price {{this.price}} €</p>
+        </div>
+    {{/each}}
+</div>
